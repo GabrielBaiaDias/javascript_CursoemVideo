@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font: 20px normal arial;
+        }
+
+        div#res{
+            margin-top: 10px;
+        }
+    </style>
+    <title>Filtro de Estrangeiros</title>
+</head>
+<body>
+    <h1>Filtro de Estrangeiros</h1>
+    Qual é seu país natal? <input type="text" name="txtbra" id="txtbra">
+    <input type="button" value="confirm" onclick="confirmar()">
+    <div id="res"></div>
+    <script>
+        function confirmar() {
+            debugger
+            var txtb=window.document.querySelector('input#txtbra')
+            var res=window.document.querySelector('div#res')
+            txtb = txtb.value
+            if(txtb == 'Brasil') {
+                var vel=46
+                /*         //Continuar...
+                if(vel > 60){
+                    res.innerHTML =  "Esta ultrapassando o limite de velocidade e sera MULTADO!"
+                }
+                             
+            res.innerHTML = 'Rastreando...' 
+            res.innerHTML = `Quando estiver dirigindo use cinto de segurança!`
+                */
+            res.innerHTML = 'Brasileiro'   
+            } else {
+            res.innerHTML = 'Estrangeiro'
+            }
+        }
+        
+    </script>
+</body>
+</html>

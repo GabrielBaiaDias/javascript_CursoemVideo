@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font: normal 20px arial;
+        }
+
+        div#continha{
+            margin-bottom: 20px;
+            border: 3px solid black;
+            padding: 0px 10px 10px 10px;
+            border-radius: 10px;
+            background-color: lightgray;
+        }
+
+        div#res{
+            margin-top: 20px;
+            border: 2px solid black;
+            width: max-content;
+            border-radius: 5px;
+            padding: 2px;
+            background-color: white;
+        }
+
+        input{
+            width: 150px;
+            height: 27px;
+            font: normal 20px arial;
+            border-radius: 10px;
+        }
+
+        input#d2{
+            width: 70px;
+            height: 30px;
+            margin-left: 5px;
+        }
+    </style>
+    <title>Praitca 01</title>
+</head>
+<body>
+    <div id="continha">
+        <h1>Calculos de +</h1>
+        <input type="number" name="txtn1" id="txtn1" class="d1"> + 
+        <input type="number" name="txtn2" id="txtn2" class="d1">
+        <input type="button" value="Soma" onclick="start()" id="d2">
+        <div id="res">Resposta</div>
+        <script>
+            function start(){
+                var n1=window.document.querySelector('txtn1')
+                var n2=window.document.querySelector('txtn2')
+                var s=window.document.querySelector('res')
+                var n1=Number(txtn1.value)
+                var n2=Number(txtn2.value)
+                var s= n1 + n2
+                res.innerHTML=`A soma entre ${n1} e ${n2} e igual a <strong>${s}</strong>.`
+            }
+        </script>
+    </div>
+    <script>
+        /*
+        window.alert('aaaaaaaaaaa')
+        window.confirm('aaaaaaaaaaa')
+        var nome=window.prompt('Qual e seu nome?')
+        window.document.write(`Ola, ${nome}, seja muito bem vindo.`)
+        */
+    </script>    
+</body>
+</html>
