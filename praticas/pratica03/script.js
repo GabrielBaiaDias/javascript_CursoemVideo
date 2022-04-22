@@ -1,10 +1,10 @@
 function carregar() {
     var mensagem = window.document.getElementById('msg')
-    var imagem = window.document.getElementById('foto')
+    var imagem = window.document.getElementById('imagem')
     var data = new Date()
     //var hora = data.getHours()
     //var minutos = data.getMinutes()
-    hora=19
+    hora=12
     minutos=23
     mensagem.innerHTML = `Agora são ${hora}:${minutos} horas.`
     if (hora >= 0 && hora < 12) {
