@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(97, 160, 255);
+    font: normal 18px arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.26);
+}
+
+#txtn, #txtf2{
+    margin: auto;
+    padding: 2px; 
+    margin-bottom: 6px;
+    margin-left: 25px;
+}
+
+#seta{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#botao{
+    border-radius: 20px;
+    margin-left: 130px;
+    font-size: 15px;
+}
+
+#seltab{
+    margin-left: 130px;
+}
+
+select{
+    background-color: rgba(211, 211, 211, 0.166);
+    width: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 15px;
+}
+
+::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

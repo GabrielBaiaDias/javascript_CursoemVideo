@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(97, 160, 255);
+    font: normal 1em arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.26);
+}
+
+#txtf1, #txtf2, #botao{
+    margin: 5px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+#seta{
+    margin-left: 20px;
+}
+
+#botao{
+    margin-left: 140px;
+    border-radius: 20px;
+    padding: 0px 4px 0px 4px;
+    font-size: 15px;
+
+}
+
+select{
+    background-color: rgba(211, 211, 211, 0.246);
+    border-radius: 4px;
+    width: auto;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+#tab{
+    margin-left: 140px;
+}
+
+::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
